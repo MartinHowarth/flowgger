@@ -56,7 +56,8 @@ timeout = 3600
 
 
 ### Input format and parameters
-# format = "ltsv"
+format = "gelf"
+framing = "nul"
 # queuesize = 1000000
 # [input.ltsv_schema]
 # counter = "u64"
@@ -105,7 +106,7 @@ type = "stdout"
 
 ### JSON (GELF)
 format = "gelf"
-# framing = "nul"
+framing = "line"
 # [output.gelf_extra]
 # x-header1 = "x-header1 value"
 # x-header2 = "x-header2 value"

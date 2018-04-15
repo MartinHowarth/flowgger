@@ -1,6 +1,8 @@
+mod actions;
 mod config;
 mod decoder;
 mod encoder;
+mod filter;
 mod input;
 mod merger;
 mod output;
